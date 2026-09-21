@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: ci-cd-project
-          image: ci-cd-project:1.0
+          image: phyothetkhaing/sample-api:1697988a2b5533f317d68ac3472a2e8e8f609682
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
